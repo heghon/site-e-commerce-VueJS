@@ -47,13 +47,13 @@ export default {
     },
     methods: {
         add_mousse () {
-            cart.add_product(this.mousse.prix)
+            cart.add_product(this.mousse)
         },
         add_pain_perdu () {
-            cart.add_product(this.pain_perdu.prix)
+            cart.add_product(this.pain_perdu)
         },
         add_tarte_aux_pommes () {
-            cart.add_product(this.tarte_aux_pommes.prix)
+            cart.add_product(this.tarte_aux_pommes)
         }
     }
 }

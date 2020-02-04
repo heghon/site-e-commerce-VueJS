@@ -1,8 +1,9 @@
 <template>
     <div class="cart"> 
-        Panier total :
+        Panier : 
+        {{ nbr }} articles
         <br>
-        {{ total }} 
+        {{ total }} €
         </div>
 </template>
 
@@ -15,7 +16,8 @@ export default {
         }
     },
     computed: {
-        total: function () {return this.state.cart}
+        total: function () {return this.state.cart},
+        nbr: function () {return this.state.nbr},
     }
 }
 </script>

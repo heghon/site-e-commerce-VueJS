@@ -47,13 +47,13 @@ export default {
     },
     methods: {
         add_mojito () {
-            cart.add_product(this.mojito.prix)
+            cart.add_product(this.mojito)
         },
         add_margarita () {
-            cart.add_product(this.margarita.prix)
+            cart.add_product(this.margarita)
         },
         add_sotb () {
-            cart.add_product(this.sex_on_the_beach.prix)
+            cart.add_product(this.sex_on_the_beach)
         }
     }
 }
